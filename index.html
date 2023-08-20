@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css 불러오기 -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>MomentumPangsu</title>
+</head>
+<body>
+
+    
+    <h2 id="clock">
+        <span class="hour-minute">00:00</span>
+        <span class="second">:00</span>
+    </h2>
+    
+    <form class="hidden" id="login-form">
+        <input
+            required
+            maxlength="15"
+            type="text" 
+            placeholder="What is your name?" 
+        />
+        <!-- <button>Log In</button> -->
+    </form>
+
+    <h1 class="hidden" id="greeting"></h1>
+
+    <form id="todo-form">
+        <input 
+            type="text" 
+            placeholder="Write a To Do and Press Enter."
+        />
+    </form>
+
+    <ul id="todo-list"></ul>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    
+    <div id="quote">
+        <span></span>
+        <br />
+        <span></span>
+    </div>
+
+    <!-- 링크 불러오기 -->
+    <!-- <a href="https://nomadcoders.co">Go to courses</a> -->
+
+
+    <!-- js 불러오기 -->
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/backgrounds.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
